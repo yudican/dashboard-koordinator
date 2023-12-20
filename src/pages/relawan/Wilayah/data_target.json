@@ -1,0 +1,1141 @@
+[
+    {
+        "id": 23,
+        "nama": "Kalimantan Timur",
+        "slug": "kalimantan-timur",
+        "pid": 64,
+        "target": 200000,
+        "kabupaten": [
+            {
+                "id": 356,
+                "nama": "Kabupaten Paser",
+                "slug": "kabupaten-paser",
+                "pid": 6401,
+                "prov_id": 23,
+                "target": 20000,
+                "kecamatan": [
+                    {
+                        "id": 4656,
+                        "nama": "Kuaro",
+                        "slug": "kuaro",
+                        "pid": 6401050,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 2117,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5012,
+                        "nama": "Batu Engau",
+                        "slug": "batu-engau",
+                        "pid": 6401021,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 1328,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5051,
+                        "nama": "Tanah Grogot",
+                        "slug": "tanah-grogot",
+                        "pid": 6401040,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 5600,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5230,
+                        "nama": "Long Kali",
+                        "slug": "long-kali",
+                        "pid": 6401080,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 1936,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5292,
+                        "nama": "Muara Samu",
+                        "slug": "muara-samu",
+                        "pid": 6401011,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 507,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5318,
+                        "nama": "Tanjung Harapan",
+                        "slug": "tanjung-harapan",
+                        "pid": 6401022,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 673,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5451,
+                        "nama": "Batu Sopang",
+                        "slug": "batu-sopang",
+                        "pid": 6401010,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 1866,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5680,
+                        "nama": "Pasir Belengkong",
+                        "slug": "pasir-belengkong",
+                        "pid": 6401030,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 2082,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5712,
+                        "nama": "Muara Komam",
+                        "slug": "muara-komam",
+                        "pid": 6401070,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 952,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5821,
+                        "nama": "Long Ikis",
+                        "slug": "long-ikis",
+                        "pid": 6401060,
+                        "prov_id": 23,
+                        "kab_id": 356,
+                        "target": 2939,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 357,
+                "nama": "Kabupaten Kutai Barat",
+                "slug": "kabupaten-kutai-barat",
+                "pid": 6402,
+                "prov_id": 23,
+                "target": 4001,
+                "kecamatan": [
+                    {
+                        "id": 4640,
+                        "nama": "Melak",
+                        "slug": "melak",
+                        "pid": 6402080,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 395,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5071,
+                        "nama": "Damai",
+                        "slug": "damai",
+                        "pid": 6402060,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 277,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5128,
+                        "nama": "Tering",
+                        "slug": "tering",
+                        "pid": 6402091,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 220,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5234,
+                        "nama": "Sekolaq Darat",
+                        "slug": "sekolaq-darat",
+                        "pid": 6402081,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 205,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5240,
+                        "nama": "Muara Lawa",
+                        "slug": "muara-lawa",
+                        "pid": 6402050,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 255,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5259,
+                        "nama": "Bentian Besar",
+                        "slug": "bentian-besar",
+                        "pid": 6402051,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 121,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5293,
+                        "nama": "Manor Bulatn",
+                        "slug": "manor-bulatn",
+                        "pid": 6402082,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 255,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5306,
+                        "nama": "Linggang Bigung",
+                        "slug": "linggang-bigung",
+                        "pid": 6402071,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 270,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5310,
+                        "nama": "Nyuatan",
+                        "slug": "nyuatan",
+                        "pid": 6402061,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 195,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5311,
+                        "nama": "Jempang",
+                        "slug": "jempang",
+                        "pid": 6402020,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 197,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5315,
+                        "nama": "Penyinggahan",
+                        "slug": "penyinggahan",
+                        "pid": 6402030,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 85,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5460,
+                        "nama": "Siluq Ngurai",
+                        "slug": "siluq-ngurai",
+                        "pid": 6402041,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 307,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5504,
+                        "nama": "Long Iram",
+                        "slug": "long-iram",
+                        "pid": 6402090,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 145,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5508,
+                        "nama": "Barong Tongkok",
+                        "slug": "barong-tongkok",
+                        "pid": 6402070,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 460,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5952,
+                        "nama": "Muara Pahu",
+                        "slug": "muara-pahu",
+                        "pid": 6402040,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 275,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5971,
+                        "nama": "Bongan",
+                        "slug": "bongan",
+                        "pid": 6402010,
+                        "prov_id": 23,
+                        "kab_id": 357,
+                        "target": 339,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 358,
+                "nama": "Kabupaten Kutai Kartanegara",
+                "slug": "kabupaten-kutai-kartanegara",
+                "pid": 6403,
+                "prov_id": 23,
+                "target": 29995,
+                "kecamatan": [
+                    {
+                        "id": 4485,
+                        "nama": "Muara Jawa",
+                        "slug": "muara-jawa",
+                        "pid": 6403020,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1533,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5052,
+                        "nama": "Semboja",
+                        "slug": "semboja",
+                        "pid": 6403010,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 2792,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5066,
+                        "nama": "Tenggarong Seberang",
+                        "slug": "tenggarong-seberang",
+                        "pid": 6403110,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 2142,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5141,
+                        "nama": "Marang Kayu",
+                        "slug": "marang-kayu",
+                        "pid": 6403140,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1192,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5165,
+                        "nama": "Sebulu",
+                        "slug": "sebulu",
+                        "pid": 6403100,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1605,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5241,
+                        "nama": "Loa Kulu",
+                        "slug": "loa-kulu",
+                        "pid": 6403050,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 2303,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5327,
+                        "nama": "Muara Badak",
+                        "slug": "muara-badak",
+                        "pid": 6403130,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 2134,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5445,
+                        "nama": "Muara Wis",
+                        "slug": "muara-wis",
+                        "pid": 6403070,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 404,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5453,
+                        "nama": "Kenohan",
+                        "slug": "kenohan",
+                        "pid": 6403160,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 839,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5554,
+                        "nama": "Muara Muntai",
+                        "slug": "muara-muntai",
+                        "pid": 6403060,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 779,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5700,
+                        "nama": "Kembang Janggut",
+                        "slug": "kembang-janggut",
+                        "pid": 6403170,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1072,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5705,
+                        "nama": "Muara Kaman",
+                        "slug": "muara-kaman",
+                        "pid": 6403150,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1836,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5745,
+                        "nama": "Kotabangun",
+                        "slug": "kotabangun",
+                        "pid": 6403080,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1738,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5819,
+                        "nama": "Tabang",
+                        "slug": "tabang",
+                        "pid": 6403180,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 545,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5883,
+                        "nama": "Loa Janan",
+                        "slug": "loa-janan",
+                        "pid": 6403040,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 2728,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5892,
+                        "nama": "Anggana",
+                        "slug": "anggana",
+                        "pid": 6403120,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 1836,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5894,
+                        "nama": "Sanga-Sanga",
+                        "slug": "sanga-sanga",
+                        "pid": 6403030,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 576,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5901,
+                        "nama": "Tenggarong",
+                        "slug": "tenggarong",
+                        "pid": 6403090,
+                        "prov_id": 23,
+                        "kab_id": 358,
+                        "target": 3941,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 359,
+                "nama": "Kabupaten Kutai Timur",
+                "slug": "kabupaten-kutai-timur",
+                "pid": 6404,
+                "prov_id": 23,
+                "target": 75000,
+                "kecamatan": [
+                    {
+                        "id": 5060,
+                        "nama": "Sangatta Selatan",
+                        "slug": "sangatta-selatan",
+                        "pid": 6404043,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 5050,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5114,
+                        "nama": "Long Mesangat",
+                        "slug": "long-mesangat",
+                        "pid": 6404012,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 750,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5117,
+                        "nama": "Busang",
+                        "slug": "busang",
+                        "pid": 6404011,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 500,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5144,
+                        "nama": "Muara Ancalong",
+                        "slug": "muara-ancalong",
+                        "pid": 6404010,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 1850,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5244,
+                        "nama": "Kongbeng",
+                        "slug": "kongbeng",
+                        "pid": 6404022,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 3950,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5263,
+                        "nama": "Bengalon",
+                        "slug": "bengalon",
+                        "pid": 6404041,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 7250,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5326,
+                        "nama": "Karangan",
+                        "slug": "karangan",
+                        "pid": 6404054,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 1950,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5356,
+                        "nama": "Batu Ampar",
+                        "slug": "batu-ampar",
+                        "pid": 6404031,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 911,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5375,
+                        "nama": "Teluk Pandan",
+                        "slug": "teluk-pandan",
+                        "pid": 6404042,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 2650,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5514,
+                        "nama": "Telen",
+                        "slug": "telen",
+                        "pid": 6404021,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 850,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5574,
+                        "nama": "Kaubun",
+                        "slug": "kaubun",
+                        "pid": 6404053,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 1750,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5743,
+                        "nama": "Sandaran",
+                        "slug": "sandaran",
+                        "pid": 6404052,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 1600,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5744,
+                        "nama": "Muara Bengkal",
+                        "slug": "muara-bengkal",
+                        "pid": 6404030,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 2150,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5751,
+                        "nama": "Sangkulirang",
+                        "slug": "sangkulirang",
+                        "pid": 6404050,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 3800,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5759,
+                        "nama": "Rantau Pulung",
+                        "slug": "rantau-pulung",
+                        "pid": 6404044,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 2050,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5891,
+                        "nama": "Sangatta Utara",
+                        "slug": "sangatta-utara",
+                        "pid": 6404040,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 25240,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5955,
+                        "nama": "Muara Wahau",
+                        "slug": "muara-wahau",
+                        "pid": 6404020,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 5650,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5975,
+                        "nama": "Kaliorang",
+                        "slug": "kaliorang",
+                        "pid": 6404051,
+                        "prov_id": 23,
+                        "kab_id": 359,
+                        "target": 2050,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 360,
+                "nama": "Kabupaten Berau",
+                "slug": "kabupaten-berau",
+                "pid": 6405,
+                "prov_id": 23,
+                "target": 10000,
+                "kecamatan": [
+                    {
+                        "id": 5112,
+                        "nama": "Tanjung Redeb",
+                        "slug": "tanjung-redeb",
+                        "pid": 6405060,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 2759,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5125,
+                        "nama": "Maratua",
+                        "slug": "maratua",
+                        "pid": 6405041,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 149,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5133,
+                        "nama": "Biatan",
+                        "slug": "biatan",
+                        "pid": 6405110,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 448,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5228,
+                        "nama": "Gunung Tabur",
+                        "slug": "gunung-tabur",
+                        "pid": 6405070,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 796,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5312,
+                        "nama": "Batu Putih",
+                        "slug": "batu-putih",
+                        "pid": 6405100,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 328,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5363,
+                        "nama": "Sambaliung",
+                        "slug": "sambaliung",
+                        "pid": 6405050,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 1756,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5373,
+                        "nama": "Teluk Bayur",
+                        "slug": "teluk-bayur",
+                        "pid": 6405090,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 944,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5497,
+                        "nama": "Talisayan",
+                        "slug": "talisayan",
+                        "pid": 6405020,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 668,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5578,
+                        "nama": "Biduk Biduk",
+                        "slug": "biduk-biduk",
+                        "pid": 6405030,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 359,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5650,
+                        "nama": "Segah",
+                        "slug": "segah",
+                        "pid": 6405080,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 626,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5706,
+                        "nama": "Pulau Derawan",
+                        "slug": "pulau-derawan",
+                        "pid": 6405040,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 479,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5756,
+                        "nama": "Kelay",
+                        "slug": "kelay",
+                        "pid": 6405010,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 363,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5969,
+                        "nama": "Tabalar",
+                        "slug": "tabalar",
+                        "pid": 6405021,
+                        "prov_id": 23,
+                        "kab_id": 360,
+                        "target": 325,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 361,
+                "nama": "Kabupaten Penajam Paser Utara",
+                "slug": "kabupaten-penajam-paser-utara",
+                "pid": 6409,
+                "prov_id": 23,
+                "target": 10003,
+                "kecamatan": [
+                    {
+                        "id": 5171,
+                        "nama": "Sepaku",
+                        "slug": "sepaku",
+                        "pid": 6409040,
+                        "prov_id": 23,
+                        "kab_id": 361,
+                        "target": 2086,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5246,
+                        "nama": "Waru",
+                        "slug": "waru",
+                        "pid": 6409020,
+                        "prov_id": 23,
+                        "kab_id": 361,
+                        "target": 1083,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5831,
+                        "nama": "Babulu",
+                        "slug": "babulu",
+                        "pid": 6409010,
+                        "prov_id": 23,
+                        "kab_id": 361,
+                        "target": 2042,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5948,
+                        "nama": "Penajam",
+                        "slug": "penajam",
+                        "pid": 6409030,
+                        "prov_id": 23,
+                        "kab_id": 361,
+                        "target": 4792,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 362,
+                "nama": "Kabupaten Mahakam Hulu",
+                "slug": "kabupaten-mahakam-hulu",
+                "pid": 6411,
+                "prov_id": 23,
+                "target": 1000,
+                "kecamatan": [
+                    {
+                        "id": 5448,
+                        "nama": "Long Bagun",
+                        "slug": "long-bagun",
+                        "pid": 6411030,
+                        "prov_id": 23,
+                        "kab_id": 362,
+                        "target": 410,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5457,
+                        "nama": "Long Hubung",
+                        "slug": "long-hubung",
+                        "pid": 6411020,
+                        "prov_id": 23,
+                        "kab_id": 362,
+                        "target": 240,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5685,
+                        "nama": "Long Pahangai",
+                        "slug": "long-pahangai",
+                        "pid": 6411040,
+                        "prov_id": 23,
+                        "kab_id": 362,
+                        "target": 220,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5754,
+                        "nama": "Laham",
+                        "slug": "laham",
+                        "pid": 6411010,
+                        "prov_id": 23,
+                        "kab_id": 362,
+                        "target": 70,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5964,
+                        "nama": "Long Apari",
+                        "slug": "long-apari",
+                        "pid": 6411050,
+                        "prov_id": 23,
+                        "kab_id": 362,
+                        "target": 60,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 363,
+                "nama": "Kota Balikpapan",
+                "slug": "kota-balikpapan",
+                "pid": 6471,
+                "prov_id": 23,
+                "target": 20000,
+                "kecamatan": [
+                    {
+                        "id": 5501,
+                        "nama": "Balikpapan Kota",
+                        "slug": "balikpapan-kota",
+                        "pid": 6471011,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 2244,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5553,
+                        "nama": "Balikpapan Barat",
+                        "slug": "balikpapan-barat",
+                        "pid": 6471050,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 2628,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5572,
+                        "nama": "Balikpapan Timur",
+                        "slug": "balikpapan-timur",
+                        "pid": 6471020,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 2405,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5623,
+                        "nama": "Balikpapan Tengah",
+                        "slug": "balikpapan-tengah",
+                        "pid": 6471040,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 2910,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5644,
+                        "nama": "Balikpapan Utara",
+                        "slug": "balikpapan-utara",
+                        "pid": 6471030,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 5327,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5961,
+                        "nama": "Balikpapan Selatan",
+                        "slug": "balikpapan-selatan",
+                        "pid": 6471010,
+                        "prov_id": 23,
+                        "kab_id": 363,
+                        "target": 4486,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 364,
+                "nama": "Kota Samarinda",
+                "slug": "kota-samarinda",
+                "pid": 6472,
+                "prov_id": 23,
+                "target": 20000,
+                "kecamatan": [
+                    {
+                        "id": 5011,
+                        "nama": "Samarinda Utara",
+                        "slug": "samarinda-utara",
+                        "pid": 6472060,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 2666,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5074,
+                        "nama": "Samarinda Ilir",
+                        "slug": "samarinda-ilir",
+                        "pid": 6472020,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 1686,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5135,
+                        "nama": "Samarinda Ulu",
+                        "slug": "samarinda-ulu",
+                        "pid": 6472050,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 3098,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5173,
+                        "nama": "Samarinda Seberang",
+                        "slug": "samarinda-seberang",
+                        "pid": 6472030,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 1524,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5243,
+                        "nama": "Sungai Kunjang",
+                        "slug": "sungai-kunjang",
+                        "pid": 6472040,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 3157,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5248,
+                        "nama": "Sungai Pinang",
+                        "slug": "sungai-pinang",
+                        "pid": 6472061,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 2467,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5305,
+                        "nama": "Loa Janan Ilir",
+                        "slug": "loa-janan-ilir",
+                        "pid": 6472031,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 1613,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5684,
+                        "nama": "Samarinda Kota",
+                        "slug": "samarinda-kota",
+                        "pid": 6472021,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 739,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5757,
+                        "nama": "Palaran",
+                        "slug": "palaran",
+                        "pid": 6472010,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 1600,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5973,
+                        "nama": "Sambutan",
+                        "slug": "sambutan",
+                        "pid": 6472022,
+                        "prov_id": 23,
+                        "kab_id": 364,
+                        "target": 1450,
+                        "kelurahan": []
+                    }
+                ]
+            },
+            {
+                "id": 365,
+                "nama": "Kota Bontang",
+                "slug": "kota-bontang",
+                "pid": 6474,
+                "prov_id": 23,
+                "target": 10000,
+                "kecamatan": [
+                    {
+                        "id": 5162,
+                        "nama": "Bontang Utara",
+                        "slug": "bontang-utara",
+                        "pid": 6474020,
+                        "prov_id": 23,
+                        "kab_id": 365,
+                        "target": 4644,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5358,
+                        "nama": "Bontang Barat",
+                        "slug": "bontang-barat",
+                        "pid": 6474030,
+                        "prov_id": 23,
+                        "kab_id": 365,
+                        "target": 1588,
+                        "kelurahan": []
+                    },
+                    {
+                        "id": 5627,
+                        "nama": "Bontang Selatan",
+                        "slug": "bontang-selatan",
+                        "pid": 6474010,
+                        "prov_id": 23,
+                        "kab_id": 365,
+                        "target": 3768,
+                        "kelurahan": []
+                    }
+                ]
+            }
+        ]
+    }
+]
