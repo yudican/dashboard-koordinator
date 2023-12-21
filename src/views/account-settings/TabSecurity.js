@@ -56,7 +56,6 @@ const TabSecurity = () => {
   const handleMouseDownNewPassword = event => {
     event.preventDefault()
   }
-
   // Handle Confirm New Password
   const handleConfirmNewPasswordChange = prop => event => {
     setValues({ ...values, [prop]: event.target.value })
