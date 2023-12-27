@@ -779,8 +779,6 @@ const ModalFormFilter = ({ update = false, initialValue = {}, onFinish, isFilter
                       const kelurahan = kelurahanData.find(row => row.pid == value)
                       if (kelurahan) {
                         setSelectedKelurahan(kelurahan.nama)
-                        form.setFieldValue('kecamatan', null)
-                        form.setFieldValue('kelurahan', null)
                       }
                     }}
                   >
