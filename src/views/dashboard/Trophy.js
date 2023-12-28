@@ -39,13 +39,13 @@ const Trophy = ({ data }) => {
           Total Data
         </Typography>
         <Typography variant='h5' sx={{ my: 4, color: 'primary.main' }}>
-          {data?.total || '0'}
+          {formatNumber(data?.total) || '0'}
         </Typography>
         <Button size='small' variant='contained' onClick={() => router.push('/relawan')}>
           Lihat Rumah Yang Dikunjungi
         </Button>
         <TriangleImg alt='triangle background' src={`/images/misc/${imageSrc}`} />
-        <TrophyImg alt='trophy' src='/images/misc/trophy.png' />
+        <TrophyImg alt='trophy' src='https://i.ibb.co/bsVRb6b/ir1.png' style={{ height: 70 }} />
       </CardContent>
     </Card>
   )
