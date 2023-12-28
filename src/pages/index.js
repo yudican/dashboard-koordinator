@@ -12,7 +12,6 @@ import ApexChartWrapper from 'src/@core/styles/libs/react-apexcharts'
 import { Card, Progress, Table } from 'antd'
 import { useEffect, useState } from 'react'
 import {
-  useGetCoordinatesQuery,
   useGetFilterCoordinatesMutation,
   useGetRealisasiMutation,
   useGetVisitMutation,
@@ -29,9 +28,9 @@ import Trophy from 'src/views/dashboard/Trophy'
 import { ProtectedRouter } from './_app'
 
 import { ArrowLeftBoldOutline } from 'mdi-material-ui'
+import ModalFormFilterWilayah from 'src/@core/components/filterWilayah'
 import { calculatePercentage, formatNumber, getColor } from 'src/utils/helpers'
 import dataTarget from './relawan/Wilayah/data_target.json'
-import ModalFormFilterWilayah from 'src/@core/components/filterWilayah'
 
 // provinsi
 const columns = [
@@ -53,6 +52,7 @@ const Dashboard = () => {
   const { data: reportQuestionData, isLoading: loadingQuestiondata, isSuccess } = useGetVisitReportQuestionQuery()
   const { data: reportCityData, isLoading: loadingCitydata } = useGetVisitReportCityQuery()
   const [getRealisasi, { data: realisasiData, loading: realisasiLoading }] = useGetRealisasiMutation()
+  // const { data: cordinatesData, isLoading: coordinatesLoading } = useGetCoordinatesQuery()
   const [getFilterCoordinates, { data: resultCoordinates, loading: resultCoordinateLoading }] =
     useGetFilterCoordinatesMutation()
 
@@ -71,7 +71,10 @@ const Dashboard = () => {
     []
 
   useEffect(() => {
-    getRealisasi({ kotakab: '$kotakab' })
+    getRealisasi({
+      filter: { kotakab: '$kotakab' },
+      provinsi: dataTarget[0]['nama']
+    }).then(res => console.log(res, 'res'))
     getFilterCoordinates({
       provinsi: 'Kalimantan Timur',
       kotakab: 'Kabupaten Kutai Kartanegara',
@@ -124,7 +127,7 @@ const Dashboard = () => {
                   dataSource={dataTarget[0]['kabupaten'].sort((a, b) => b.target - a.target)}
                   columns={[
                     {
-                      title: 'Nama Kabupaten',
+                      title: 'Nama Kota/Kabupaten',
                       dataIndex: 'nama',
                       key: 'nama',
                       render: (text, record) => {
@@ -133,7 +136,11 @@ const Dashboard = () => {
                             onClick={() => {
                               setStage('selectedKabupaten')
                               setSelectedKabupaten(record)
-                              getRealisasi({ kecamatan: '$kecamatan' })
+                              getRealisasi({
+                                filter: { kecamatan: '$kecamatan' },
+                                provinsi: dataTarget[0]['nama'],
+                                kotakab: text
+                              })
                             }}
                             style={{ cursor: 'pointer' }}
                           >
@@ -192,7 +199,10 @@ const Dashboard = () => {
                       onClick={() => {
                         setStage('selectedProvinsi')
                         setSelectedKecamatan(null)
-                        getRealisasi({ kotakab: '$kotakab' })
+                        getRealisasi({
+                          filter: { kotakab: '$kotakab' },
+                          provinsi: dataTarget[0]['nama']
+                        })
                       }}
                     >
                       <ArrowLeftBoldOutline />
@@ -214,7 +224,12 @@ const Dashboard = () => {
                             onClick={() => {
                               setStage('selectedKecamatan')
                               setSelectedKecamatan(record)
-                              getRealisasi({ kelurahan: '$kelurahan' })
+                              getRealisasi({
+                                filter: { kelurahan: '$kelurahan' },
+                                provinsi: dataTarget[0]['nama'],
+                                kotakab: selectedKabupaten.nama,
+                                kecamatan: text
+                              })
                             }}
                             style={{ cursor: 'pointer' }}
                           >
@@ -272,7 +287,11 @@ const Dashboard = () => {
                       style={{ marginRight: 10, cursor: 'pointer' }}
                       onClick={() => {
                         setStage('selectedKabupaten')
-                        getRealisasi({ kecamatan: '$kecamatan' })
+                        getRealisasi({
+                          filter: { kecamatan: '$kecamatan' },
+                          provinsi: dataTarget[0]['nama'],
+                          kotakab: selectedKabupaten.nama
+                        })
                       }}
                     >
                       <ArrowLeftBoldOutline />
@@ -285,7 +304,7 @@ const Dashboard = () => {
                   dataSource={selectedKecamatan.kelurahan.sort((a, b) => b.target - a.target)}
                   columns={[
                     {
-                      title: 'Nama Kelurahan',
+                      title: 'Nama Desa/Kelurahan',
                       dataIndex: 'nama',
                       key: 'nama'
                     },
