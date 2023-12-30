@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import { styled, useTheme } from '@mui/material/styles'
 import { useSelector } from 'react-redux'
-import { getItem } from 'src/utils/helpers'
+import { formatNumber, getItem } from 'src/utils/helpers'
 import { useRouter } from 'next/router'
 
 // Styled component for the triangle shaped background image
@@ -45,7 +45,7 @@ const Trophy = ({ data }) => {
           Lihat Rumah Yang Dikunjungi
         </Button>
         <TriangleImg alt='triangle background' src={`/images/misc/${imageSrc}`} />
-        <TrophyImg alt='trophy' src='https://i.ibb.co/bsVRb6b/ir1.png' style={{ height: 70 }} />
+        <TrophyImg alt='trophy' src='https://i.ibb.co/bsVRb6b/ir1.png' style={{ height: 70, marginBottom: 50 }} />
       </CardContent>
     </Card>
   )

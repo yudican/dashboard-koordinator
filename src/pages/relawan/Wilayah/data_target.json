@@ -529,7 +529,7 @@
                                 "prov_id": 23,
                                 "kab_id": 356,
                                 "kec_id": 5230,
-                                "target": 750,
+                                "target": 96,
                                 "realisasi": 96
                             },
                             {
@@ -11529,8 +11529,8 @@
                         "kelurahan": [
                             {
                                 "id": 0,
-                                "nama": "Lamaru",
-                                "slug": "lamaru",
+                                "nama": "Lemaru",
+                                "slug": "lemaru",
                                 "pid": "0",
                                 "prov_id": 23,
                                 "kab_id": 363,

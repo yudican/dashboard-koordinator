@@ -29,7 +29,7 @@ import { ProtectedRouter } from './_app'
 
 import { ArrowLeftBoldOutline } from 'mdi-material-ui'
 import ModalFormFilterWilayah from 'src/@core/components/filterWilayah'
-import { calculatePercentage, formatNumber, getColor } from 'src/utils/helpers'
+import { calculatePercentage, createSlug, formatNumber, getColor } from 'src/utils/helpers'
 import dataTarget from './relawan/Wilayah/data_target.json'
 
 // provinsi
@@ -156,7 +156,9 @@ const Dashboard = () => {
                       key: 'realisasi',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kotakab === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kotakab) === createSlug(record.nama)
+                        )
                         if (realisasi) {
                           return realisasi.count
                         }
@@ -169,7 +171,9 @@ const Dashboard = () => {
                       key: 'persentase',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kotakab === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kotakab) === createSlug(record.nama)
+                        )
                         if (realisasi) {
                           const percent = calculatePercentage(realisasi.count, record.target)
                           return (
@@ -245,7 +249,9 @@ const Dashboard = () => {
                       key: 'realisasi',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kecamatan === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kecamatan) === createSlug(record.nama)
+                        )
                         if (realisasi) {
                           return realisasi.count
                         }
@@ -258,7 +264,9 @@ const Dashboard = () => {
                       key: 'persentase',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kecamatan === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kecamatan) === createSlug(record.nama)
+                        )
                         if (realisasi) {
                           const percent = calculatePercentage(realisasi.count, record.target)
                           return (
@@ -315,7 +323,10 @@ const Dashboard = () => {
                       key: 'realisasi',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kelurahan === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kelurahan) === createSlug(record.nama)
+                        )
+                        console.log(realisasi, realisasiData, record)
                         if (realisasi) {
                           return realisasi.count
                         }
@@ -328,7 +339,9 @@ const Dashboard = () => {
                       key: 'persentase',
                       align: 'center',
                       render: (value, record) => {
-                        const realisasi = realisasiData?.find(item => item._id.kelurahan === record.nama)
+                        const realisasi = realisasiData?.find(
+                          item => createSlug(item._id.kelurahan) === createSlug(record.nama)
+                        )
                         if (realisasi) {
                           const percent = calculatePercentage(realisasi.count, record.target)
                           return (
